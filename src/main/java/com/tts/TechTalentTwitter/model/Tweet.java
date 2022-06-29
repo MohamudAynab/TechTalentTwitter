@@ -9,7 +9,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 import org.hibernate.validator.constraints.Length;
-import org.yaml.snakeyaml.nodes.Tag;
+//import org.yaml.snakeyaml.nodes.Tag;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
@@ -44,3 +44,4 @@ public class Tweet {
     @CreationTimestamp
     private Date createdAt;
 }
+
